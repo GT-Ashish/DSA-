@@ -12,7 +12,7 @@ class Solution {
                 ans[i]=nums[a];
                 a++;
             }
-        
+        System.gc();
         return ans;
         
     }
